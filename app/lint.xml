@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<lint>
+    <issue
+        id="IconMissingDensityFolder"
+        severity="ignore" />
+
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/activation.xml" />
+        <ignore path="res/layout-xlarge/activation.xml" />
+    </issue>
+
+    <issue id="UselessLeaf">
+        <ignore path="res/layout/main.xml" />
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="error" />
+</lint>
